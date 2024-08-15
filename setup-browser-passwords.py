@@ -165,9 +165,9 @@ if __name__ == '__main__':
     encryption_key = get_encryption_key(encryption_key_name)
 
     # Save encrypted login data to a file
-    save_encrypted_login_data(login_data, encryption_key)
+   # save_encrypted_login_data(login_data, encryption_key)
 
     # Decrypt and read back the login data
-    decrypted_login_data = decrypt_login_data('encrypted_logins.json', encryption_key)
-    for url, username, password in decrypted_login_data:
-        print(f"URL: {url}, Username: {username}, Password: {password}")
+    #decrypted_login_data = decrypt_login_data('encrypted_logins.json', encryption_key)
+   # for url, username, password in decrypted_login_data:
+    #    print(f"URL: {url}, Username: {username}, Password: {password}")
