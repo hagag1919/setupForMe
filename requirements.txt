@@ -1,0 +1,4 @@
+crypto~=1.4.1
+pycryptodomex==3.19.1  # For AES encryption and decryption (alternative to pycryptodome)
+pypiwin32==223         # For accessing Windows Credential Manager (alternative to pywin32)
+cryptography==42.0.4   # For Fernet encryption and decryption
